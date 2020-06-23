@@ -273,3 +273,16 @@
   new Main;
 
 }).call(this);
+
+
+$('#circle2').click(function() {
+  window.location.href = window.location.href + "card";
+})
+
+$('#circle1').click(function() {
+  window.location.href = window.location.href + "fireworks";
+})
+
+$('#circle3').click(function() {
+  window.location.href = window.location.href + "gallery";
+})
